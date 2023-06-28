@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dbb7ddcfb7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 id="name"><span id="first">S</span>ahaya Burney Albin</h1>
+                <i id="open" class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#achievements">Achievements</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact </a>
+                    </li>
+                    <i class="fa-sharp fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Mern Stack developer</p>
+                <h1>Hi I'm <span>Sahaya Burney</span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Seeking an entry level position in a challenging
+                        workplace to design and implement solutions and to
+                        enhance my knowledge in the field of Information
+                        Technology while contributing back to the organization
+                        in the best way possible
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certifictaion')">Certifictaion</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Express Js</li>
+                            <li>React Js</li>
+                            <li>Node Js</li>
+                            <li>Javascript</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                            <li>C</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certifictaion">
+                        <ul>
+                            <li><span>Git, GitHub & Markdown crash course</span> from udemy</li>
+                            <li><span>Web Development Bootcamp</span> from udemy</li>
+                            <li><span>Python</span> from Internshala trainings and ssi center</li>
+                            <li><span>SQL</span> from techlearn</li>
+                            <li><span>Java</span> from NPTEL and Spoken Tutorial</li>
+                            <li><span>C</span> from spoken tutorial and ssi center</li>
+                            <li><span>HTML</span> from Infosys Spring Board</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>B.Tech (Information Technology) (2020-5th semester)</span>
+                                <br>
+                                St.Joseph's Institute of Technology
+                                CGPA-8.33
+                            </li>
+                            <li>
+                                <span>HSC (2019-2020)</span>
+                                <br>
+                                St.Joseph's Matriculation Higher Secondary School
+                                Percentage-64%
+                            </li>
+                            <li>
+                                <span>SSLC (2017-2018)</span>
+                                <br>
+                                St.Joseph's Matriculation Higher Secondary School
+                                Percentage-85.4%
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="projects-list">
+                <div class="proj">
+                    <img src="images/hotel.jpeg" alt="">
+                    <div class="layer">
+                        <h1>Hotel Reservation System</h1>
+                        <ul>
+                            <li>The users can book their tickets and admin can view who have booked on a specific date
+                            </li>
+                            <li>Front End-React js</li>
+                            <li>Database-Fire Base</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="proj">
+                    <img src="images/online.jpeg" alt="">
+                    <div class="layer">
+                        <h1>Online Store</h1>
+                        <ul>
+                            <li>The users can sell and purchase products in the site</li>
+                            <li>Front End-React js</li>
+                            <li>Backend-Node js</li>
+                            <li>Database-Moongose</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="proj">
+                    <img src="images/college.jpeg" alt="">
+                    <div class="layer">
+                        <h1>College Portal</h1>
+                        <ul>
+                            <li>This project is coordinates the student and professor information</li>
+                            <li>Front End-Node js</li>
+                            <li>Backend-Node js</li>
+                            <li>Database-Mongo DB</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">Mini Projects</h1>
+            <div class="projects-list">
+                <div class="proj">
+                    <img src="images/todo.jpeg" alt="">
+                    <div class="layer">
+                        <h1>To Do list</h1>
+                        <ul>
+                            <li>Frontend:React Js</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="proj">
+                    <img src="images/stone.jpeg" alt="">
+                    <div class="layer">
+                        <h1>Stone Paper Scissor Game</h1>
+                        <ul>
+                            <li>Front End-HTML,CSS</li>
+                            <li>Server side-Javascript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="proj">
+                    <img src="images/memory.jpeg" alt="">
+                    <div class="layer">
+                        <h1>Memory Game</h1>
+                        <ul>
+                            <li>Front End-HTML,CSS</li>
+                            <li>Front End-HTML,CSS</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="achievements">
+        <div class="container">
+            <h1 class="sub-title">Achievements</h1>
+            <div class="achived-list">
+                <div>
+                    <h1>Webmania</h1>
+                    <ul>
+                        <li>Backed up third place in hackthon conducted by incredible minds</li>
+                        <li>Developed a static web page for grocery shopping</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1>Code Club(Inter College Activity)</h1>
+                    <ul>
+                        <li>Backed up second place with cash price of ₹300</li>
+                        <li>Developed a presentation based on a Air quality monitoring system</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container social">
+                <h1 class="sub-title">Contact Me</h1>
+                <p id="desc">Get in Touch with me , If you think I'd be a good fit for your job</p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/sahaya-burney-aaa200218"><i
+                                class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/SahayaBurney"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="mailto:sahayaburney@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
+                    <li><i class="fa-solid fa-phone"></i> +91 6381793711</li>
+                </ul>
+            </div>
+            <br><br>
+            <a href="images/Sahaya Burney Albin Resume.pdf" download="" class="btn">Download CV</a>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+            const opentab = (tabname) => {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link")
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+            var side = document.getElementById("sidemenu")
+            const openmenu = () => {
+                side.style.right = "0"
+            }
+            const closemenu = () => {
+                side.style.right = "-200px"
+            }
+        </script>
+</body>
+
+</html>
